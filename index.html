@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Clément Hébert | RT</title>
+    
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="logo">CH<span class="dot">.</span></div>
+        <ul class="nav-links">
+            <li><a href="#home" class="active">Accueil</a></li>
+            <li><a href="#about">Profil</a></li>
+            <li><a href="#goals">Objectifs</a></li>
+            <li><a href="#projects">Projets SAE</a></li>
+        </ul>
+        <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div id="particles-js"></div>
+        <div class="hero-content" data-aos="fade-up" data-aos-duration="1500">
+            <h5>Bonjour, je suis</h5>
+            <h1>Clément <span class="highlight">Hébert</span></h1>
+            <h2>Étudiant R&T passionné par les <span class="highlight">Réseaux & Télécoms</span></h2>
+            <p>IUT Campus 3 - IFS</p>
+            <div class="hero-btns">
+    <a href="#projects" class="btn btn-neon">Voir mes projets <i class="fas fa-terminal"></i></a>
+    <a href="#about" class="btn btn-glass">Mon profil <i class="fas fa-user-astronaut"></i></a>
+</div>
+        </div>
+        <a href="#about" class="scroll-down">
+            <div class="mouse"><span></span></div>
+        </a>
+    </section>
+
+    <section id="about" class="container">
+        <h2 class="section-title" data-aos="fade-right">Profil & Parcours</h2>
+        <div class="about-grid">
+            <div class="card glow-card" data-aos="fade-up" data-aos-delay="200">
+                <div class="card-icon"><i class="fas fa-graduation-cap"></i></div>
+                <h3>Parcours Académique</h3>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <h4>BUT R&T - 2ème année</h4>
+                        <p>IUT Campus 3, IFS (Formation actuelle - Promotion 2026)</p>
+                    </div>
+                    <div class="timeline-item">
+                        <h4>Baccalauréat Général</h4>
+                        <p>Lycée Victor Hugo, Caen - <span class="mention">Mention Bien</span> (Spé NSI & Maths)</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card glow-card" data-aos="fade-up" data-aos-delay="400">
+                <div class="card-icon"><i class="fas fa-user-astronaut"></i></div>
+                <h3>Qui suis-je ?</h3>
+                <p>Passionné par l'architecture des systèmes et la transmission de données, je me spécialise dans la conception d'infrastructures résilientes. Mon approche combine rigueur scientifique et curiosité pour les technologies de demain (SDN, Cybersécurité, 5G).</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="goals" class="container section-dark">
+        <h2 class="section-title" data-aos="fade-right">Mes Objectifs</h2>
+        <div class="goals-grid">
+            <div class="goal-card main-goal" data-aos="zoom-in-up">
+                <i class="fas fa-rocket icon-large"></i>
+                <h3>Objectif Principal</h3>
+                <h4>Intégrer une École d'Ingénieur</h4>
+                <p>Viser un cycle ingénieur (type INSA ou ENSI) pour me spécialiser dans le Cloud Computing ou la Cybersécurité des réseaux industriels.</p>
+            </div>
+            <div class="goal-card" data-aos="zoom-in-up" data-aos-delay="200">
+                <i class="fas fa-medal icon-large"></i>
+                <h3>Académique</h3>
+                <h4>Excellence Technique</h4>
+                <p>Valider les certifications complémentaires (CCNA, etc.) et maintenir un rang de tête de promotion en BUT RT.</p>
+            </div>
+            <div class="goal-card" data-aos="zoom-in-up" data-aos-delay="400">
+                <i class="fas fa-network-wired icon-large"></i>
+                <h3>Professionnel</h3>
+                <h4>Ingénieur Systèmes & Réseaux</h4>
+                <p>Concevoir et administrer des infrastructures critiques à haute disponibilité pour des grands comptes.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="container">
+        <h2 class="section-title" data-aos="fade-right">Projets & Bilan Réflexif</h2>
+
+        <article class="project-card modern-project" data-aos="fade-up">
+            <div class="project-content">
+                <div class="project-label">Développement Web Fullstack</div>
+                <h3>🌤️ SAE 2.3 - Instant Weather V2</h3>
+                <p class="project-summary">
+                    <strong style="color:white;">Décrire :</strong> Développement d'une application météo temps réel consommant l'API OpenWeatherMap. En tant que <strong>Lead Dev</strong>, j'ai géré l'intégralité du cycle de vie des données, du Fetch asynchrone à l'affichage dynamique.
+                </p>
+                <div class="tech-stack-modern">
+                    <span><i class="fab fa-js"></i> JavaScript ES6+</span>
+                    <span><i class="fab fa-html5"></i> HTML5/CSS3</span>
+                    <span><i class="fas fa-cloud-download-alt"></i> API REST JSON</span>
+                </div>
+                <div class="project-details-grid">
+                    <div class="detail-column">
+                        <h4><i class="fas fa-microscope"></i> Analyser</h4>
+                        <div class="detail-block block-competence">
+                            <span class="detail-label">Compétences</span>
+                            <p class="detail-text">Gestion de l'asynchronisme, manipulation du DOM, parsing JSON et gestion d'erreurs HTTP.</p>
+                        </div>
+                        <div class="detail-block block-difficulty">
+                            <span class="detail-label">Difficulté : Race Conditions</span>
+                            <p class="detail-text">La latence réseau causait des "Race Conditions" : l'interface tentait d'afficher les icônes avant que la réponse API ne soit totalement parsée, provoquant des erreurs 404 temporaires.</p>
+                        </div>
+                        <div class="detail-block block-solution">
+                            <span class="detail-label">Solution : Async/Await & Try-Catch</span>
+                            <p class="detail-text">Sécurisation du flux avec des blocs <strong>Try-Catch</strong> et mise en place d'un état "Loading" (spinner) pour bloquer l'affichage tant que la promesse n'est pas résolue.</p>
+                        </div>
+                    </div>
+                    <div class="detail-column">
+                        <h4><i class="fas fa-clipboard-check"></i> Évaluer</h4>
+                        <div class="detail-block">
+                            <span class="detail-label">Apprentissages</span>
+                            <p class="detail-text">J'ai compris l'importance de l'expérience utilisateur (UX) : un site rapide mais buggé visuellement perd toute sa crédibilité.</p>
+                        </div>
+                        <div class="detail-block block-difficulty">
+                            <span class="detail-label">Optimisation future</span>
+                            <p class="detail-text">Implémenter un système de <strong>LocalStorage</strong> pour mettre les données en cache et limiter les appels API inutiles (économie de quota).</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <a href="https://clecle14.github.io/SAE23_nouveau/" target="_blank" class="btn-glow"><i class="fas fa-globe-europe"></i> Démo Live</a>
+            </div>
+        </article>
+
+        <article class="project-card modern-project" data-aos="fade-up" data-aos-delay="200">
+            <div class="project-content">
+                <div class="project-label label-telecom">Télécommunications</div>
+                <h3>📡 SAE 2.2 - Analyse de signaux RF</h3>
+                <p class="project-summary">
+                    <strong style="color:white;">Décrire :</strong> Analyse fréquentielle d'un signal FM capté par une clé RTL-SDR. Rôle : <strong>Ingénieur Signal</strong> chargé de traiter les données brutes sous Matlab pour valider le bilan de liaison théorique.
+                </p>
+                <div class="tech-stack-modern">
+                    <span><i class="fas fa-wave-square"></i> Matlab / Octave</span>
+                    <span><i class="fas fa-satellite-dish"></i> RTL-SDR</span>
+                    <span><i class="fas fa-broadcast-tower"></i> FFT Analysis</span>
+                </div>
+                <div class="project-details-grid">
+                    <div class="detail-column">
+                        <h4><i class="fas fa-microscope"></i> Analyser</h4>
+                        <div class="detail-block block-competence">
+                            <span class="detail-label">Compétences</span>
+                            <p class="detail-text">Transformée de Fourier (FFT), filtrage numérique FIR/IIR, calcul de gain et affaiblissement en dB.</p>
+                        </div>
+                        <div class="detail-block block-difficulty">
+                            <span class="detail-label">Difficulté : SNR Faible</span>
+                            <p class="detail-text">Un rapport Signal/Bruit (SNR) trop faible dû aux interférences des PC de la salle rendait la mesure de la puissance crête impossible à l'œil nu sur le spectre.</p>
+                        </div>
+                        <div class="detail-block block-solution">
+                            <span class="detail-label">Solution : Filtrage Butterworth</span>
+                            <p class="detail-text">Application d'un filtre passe-bas de type <strong>Butterworth</strong> sous Matlab pour supprimer les harmoniques hautes fréquences et lisser le bruit de fond, isolant ainsi la porteuse.</p>
+                        </div>
+                    </div>
+                    <div class="detail-column">
+                        <h4><i class="fas fa-clipboard-check"></i> Évaluer</h4>
+                        <div class="detail-block">
+                            <span class="detail-label">Apprentissages</span>
+                            <p class="detail-text">La théorie (Formule de Friis) est souvent mise à mal par l'environnement physique ; le traitement numérique est indispensable en radiofréquences.</p>
+                        </div>
+                        <div class="detail-block block-difficulty">
+                            <span class="detail-label">Axe de progrès</span>
+                            <p class="detail-text">Mieux calibrer l'antenne avant la capture pour maximiser le gain dès la source et réduire la dépendance au filtrage logiciel.</p>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </article>
+
+        <article class="project-card modern-project" data-aos="fade-up" data-aos-delay="400">
+            <div class="project-content">
+                <div class="project-label label-management">Management & Gestion</div>
+                <h3>👔 SAE 301 - Déploiement d'Infrastructure</h3>
+                <p class="project-summary">
+                    <strong style="color:white;">Décrire :</strong> Pilotage d'un groupe de 4 personnes pour répondre à un cahier des charges client (maquette réseau). Rôle : <strong>Chef de Projet</strong>, garant du respect du planning et de la qualité technique.
+                </p>
+                <div class="tech-stack-modern">
+                    <span><i class="fas fa-tasks"></i> Gantt / WBS</span>
+                    <span><i class="fab fa-trello"></i> Agile Kanban</span>
+                    <span><i class="fas fa-users-cog"></i> Risque & Crise</span>
+                </div>
+                <div class="project-details-grid">
+                    <div class="detail-column">
+                        <h4><i class="fas fa-microscope"></i> Analyser</h4>
+                        <div class="detail-block block-competence">
+                            <span class="detail-label">Compétences</span>
+                            <p class="detail-text">Management d'équipe, gestion des conflits, planification sous contrainte de temps (Chemin Critique).</p>
+                        </div>
+                        <div class="detail-block block-difficulty">
+                            <span class="detail-label">Difficulté : Rupture du planning</span>
+                            <p class="detail-text">Un retard de 4h sur la configuration du routage OSPF a bloqué le reste de la chaîne de production (VLANs, Sécurité), créant un goulot d'étranglement critique.</p>
+                        </div>
+                        <div class="detail-block block-solution">
+                            <span class="detail-label">Solution : Méthode Agile</span>
+                            <p class="detail-text">Pivot immédiat : passage en mode "Crise" avec une session de <strong>Pair-Config</strong> pour résoudre le bug et décalage des tâches non-prioritaires sur le Gantt.</p>
+                        </div>
+                    </div>
+                    <div class="detail-column">
+                        <h4><i class="fas fa-clipboard-check"></i> Évaluer</h4>
+                        <div class="detail-block">
+                            <span class="detail-label">Apprentissages</span>
+                            <p class="detail-text">Le rôle du chef n'est pas de tout faire, mais de savoir où placer les bonnes personnes au bon moment pour débloquer la situation.</p>
+                        </div>
+                        <div class="detail-block block-difficulty">
+                            <span class="detail-label">Axe de progrès</span>
+                            <p class="detail-text">Instaurer des <strong>Daily Scrums</strong> de 5 minutes dès le début du projet pour anticiper les blocages techniques avant qu'ils ne deviennent critiques.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <a href="https://www.canva.com/..." target="_blank" class="btn-glow btn-management"><i class="fas fa-desktop"></i> Présentation Projet</a>
+            </div>
+        </article>
+     <article class="project-card modern-project" data-aos="fade-up">
+    <div class="project-content">
+        <div class="project-label label-telecom">Infrastructure & Sécurité</div>
+        <h3>🏢 SAE 303 - Conception d'un réseau multi-sites sécurisé</h3>
+        
+        <p class="project-summary">
+            <strong style="color:white;">Décrire :</strong> Design et déploiement d'une infrastructure redondante pour une entreprise répartie sur plusieurs sites. L'enjeu était de segmenter les flux (8 VLANs) tout en garantissant une tolérance aux pannes via le protocole MSTP.
+        </p>
+        
+        <div class="tech-stack-modern">
+            <span><i class="fas fa-network-wired"></i> MSTP (802.1s)</span>
+            <span><i class="fas fa-sitemap"></i> VLSM / IPv4 Subnetting</span>
+            <span><i class="fas fa-shield-alt"></i> BPDU Guard & Port-Security</span>
+        </div>
+
+        <div class="project-details-grid">
+            <div class="detail-column">
+                <h4><i class="fas fa-microscope"></i> Analyser</h4>
+                
+                <div class="detail-block">
+                    <span class="detail-label">Segmentation & Plan d'adressage</span>
+                    <p class="detail-text">Utilisation du **VLSM** pour optimiser l'espace d'adressage entre le VLAN 600 (Admin), 650 (Supervision) et 120 (Production), évitant le gaspillage d'IP sur les petits sous-réseaux.</p>
+                </div>
+
+                <div class="detail-block block-difficulty">
+                    <span class="detail-label">Difficulté : Optimisation MSTP</span>
+                    <p class="detail-text">Le défi était d'éviter les liens inactifs. En mode classique (RSTP), un lien est bloqué pour tout le réseau. Ici, il fallait mapper intelligemment les VLANs sur des instances pour que chaque lien soit utilisé.</p>
+                </div>
+            </div>
+
+            <div class="detail-column">
+                <h4><i class="fas fa-clipboard-check"></i> Évaluer</h4>
+
+                <div class="detail-block block-solution">
+                    <span class="detail-label">Solution : Équilibrage par Instances</span>
+                    <p class="detail-text">Configuration de deux instances MSTP : l'Instance 1 (VLANs pairs) a pour Root Bridge le Switch A, tandis que l'Instance 2 (VLANs impairs) pointe vers le Switch B. Cela permet un **Load Balancing** efficace au niveau 2.</p>
+                </div>
+
+                <div class="detail-block">
+                    <span class="detail-label">Sécurisation du cœur</span>
+                    <p class="detail-text">Activation du **BPDU Guard** sur les ports d'accès pour empêcher toute boucle accidentelle introduite par un utilisateur, garantissant la stabilité de la topologie MSTP.</p>
+                </div>
+                <div class="project-actions" style="margin-top: 20px;">
+   <a href="schéma logique.drawio.pdf" download="Rapport_SAE303_Hebert" class="btn-glow">
+    <i class="fas fa-download"></i> Télécharger le plan 
+</a>
+</div>
+            </div>
+        </div>
+    </div>
+</article>
+<article class="project-card modern-project" data-aos="fade-up">
+    <div class="project-content">
+        <div class="project-label label-management">Scripting & API Automation</div>
+        <h3>🎮 Projet Python - PokéAPI Data Explorer</h3>
+        
+        <p class="project-summary">
+            <strong style="color:white;">Décrire :</strong> Développement d'un script d'automatisation en Python exploitant l'API REST <strong>PokéAPI</strong>. L'objectif est de requêter, filtrer et extraire des données spécifiques (couleurs, types, habitats) parmi plus de 1000 entrées JSON.
+        </p>
+        
+        <div class="tech-stack-modern">
+            <span><i class="fab fa-python"></i> Python 3.x</span>
+            <span><i class="fas fa-exchange-alt"></i> Requests Library</span>
+            <span><i class="fas fa-file-json"></i> JSON Parsing</span>
+        </div>
+
+        <div class="project-details-grid">
+            <div class="detail-column">
+                <h4><i class="fas fa-microscope"></i> Analyser</h4>
+                <div class="detail-block block-difficulty">
+                    <span class="detail-label">Difficulté : Parsing de données imbriquées</span>
+                    <p class="detail-text">La PokéAPI renvoie des structures JSON complexes avec plusieurs niveaux d'imbrication. Extraire la couleur ou le type d'un Pokémon nécessite un traitement récursif ou des accès précis pour éviter les erreurs de type <code>KeyError</code>.</p>
+                </div>
+            </div>
+
+            <div class="detail-column">
+                <h4><i class="fas fa-clipboard-check"></i> Évaluer</h4>
+                <div class="detail-block block-solution">
+                    <span class="detail-label">Solution : Filtrage Dynamique & List Comprehension</span>
+                    <p class="detail-text">Mise en place de filtres via des **listes par compréhension** pour optimiser la vitesse de traitement. Intégration de blocs <code>try-except</code> pour gérer les éventuelles latences de l'API ou les données manquantes.</p>
+                </div>
+            </div>
+        </div>
+
+    
+    </div>
+</article>
+
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <h3>Clément Hébert</h3>
+            <p>Etudiant en Réseaux & Télécoms</p>
+            <div class="socials">
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/clecle14" target="_blank"><i class="fab fa-github"></i></a>
+           
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 </p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
